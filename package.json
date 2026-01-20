@@ -16,6 +16,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "google-fonts-complete": "^2.2.3",
     "vite": "^7.3.1"
   }
