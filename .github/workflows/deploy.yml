@@ -31,5 +31,9 @@ jobs:
           host: ${{ secrets.FTP_HOST }}
           user: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          localDir: "dist"
-          remoteDir: "/public_html"
+          localDir: "dist/"
+          remoteDir: "/public_html/"
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
