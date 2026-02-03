@@ -970,6 +970,7 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
 /* ========================================
    SCROLL ANIMATIONS
    ======================================== */
@@ -1030,22 +1031,54 @@ img {
 }
 
 /* Stagger Delays */
-[data-animate][data-delay="50"] { transition-delay: 0.05s; }
-[data-animate][data-delay="100"] { transition-delay: 0.1s; }
-[data-animate][data-delay="150"] { transition-delay: 0.15s; }
-[data-animate][data-delay="200"] { transition-delay: 0.2s; }
-[data-animate][data-delay="250"] { transition-delay: 0.25s; }
-[data-animate][data-delay="300"] { transition-delay: 0.3s; }
-[data-animate][data-delay="350"] { transition-delay: 0.35s; }
-[data-animate][data-delay="400"] { transition-delay: 0.4s; }
-[data-animate][data-delay="450"] { transition-delay: 0.45s; }
-[data-animate][data-delay="500"] { transition-delay: 0.5s; }
+[data-animate][data-delay="50"] {
+  transition-delay: 0.05s;
+}
+
+[data-animate][data-delay="100"] {
+  transition-delay: 0.1s;
+}
+
+[data-animate][data-delay="150"] {
+  transition-delay: 0.15s;
+}
+
+[data-animate][data-delay="200"] {
+  transition-delay: 0.2s;
+}
+
+[data-animate][data-delay="250"] {
+  transition-delay: 0.25s;
+}
+
+[data-animate][data-delay="300"] {
+  transition-delay: 0.3s;
+}
+
+[data-animate][data-delay="350"] {
+  transition-delay: 0.35s;
+}
+
+[data-animate][data-delay="400"] {
+  transition-delay: 0.4s;
+}
+
+[data-animate][data-delay="450"] {
+  transition-delay: 0.45s;
+}
+
+[data-animate][data-delay="500"] {
+  transition-delay: 0.5s;
+}
 
 /* Pulse Animation for CTA */
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
   }
+
   50% {
     box-shadow: 0 8px 30px rgba(16, 185, 129, 0.5);
   }
@@ -1055,6 +1088,20 @@ img {
   animation: pulse 2s ease-in-out infinite;
 }
 
+.mobile-lang-switcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+  .mobile-lang-switcher {
+    margin: 1rem 0 0;
+    width: 100%;
+  }
+}
+
 /* Smooth transitions for all elements */
 * {
   transition-property: transform, opacity, background-color, border-color, color, box-shadow;
@@ -1062,6 +1109,7 @@ img {
 
 /* Reduce motion for accessibility */
 @media (prefers-reduced-motion: reduce) {
+
   [data-animate],
   [data-animate].is-visible {
     transition: none !important;

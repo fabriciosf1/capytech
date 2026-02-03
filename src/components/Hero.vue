@@ -3,40 +3,44 @@
     <div class="container grid-hero">
       <div class="hero-text">
         <h1 class="headline" data-animate="fade-up">
-          Transforme Ideias em <span class="highlight">Soluções Digitais</span> que Impulsionam seu Negócio
+          <i18n-t keypath="hero.title" tag="span">
+            <template #highlight>
+              <span class="highlight">{{ $t('hero.highlight') }}</span>
+            </template>
+          </i18n-t>
         </h1>
         
         <p class="subheadline" data-animate="fade-up" data-delay="100">
-          Desenvolvimento web full-stack e aplicativos mobile sob medida. Sistemas que automatizam processos, conectam ferramentas e escalam junto com sua empresa.
+          {{ $t('hero.subtitle') }}
         </p>
 
         <div class="value-props">
           <div class="value-item" data-animate="fade-up" data-delay="150">
             <span class="value-icon">⚡</span>
             <div>
-              <strong>Agilidade</strong>
-              <p>Do conceito ao deploy em semanas</p>
+              <strong>{{ $t('hero.valueProps.agility.title') }}</strong>
+              <p>{{ $t('hero.valueProps.agility.description') }}</p>
             </div>
           </div>
           <div class="value-item" data-animate="fade-up" data-delay="200">
             <span class="value-icon">🎯</span>
             <div>
-              <strong>Sob Medida</strong>
-              <p>Soluções pensadas para você</p>
+              <strong>{{ $t('hero.valueProps.tailored.title') }}</strong>
+              <p>{{ $t('hero.valueProps.tailored.description') }}</p>
             </div>
           </div>
           <div class="value-item" data-animate="fade-up" data-delay="250">
             <span class="value-icon">🚀</span>
             <div>
-              <strong>Escalável</strong>
-              <p>Tecnologia que cresce com você</p>
+              <strong>{{ $t('hero.valueProps.scalable.title') }}</strong>
+              <p>{{ $t('hero.valueProps.scalable.description') }}</p>
             </div>
           </div>
         </div>
 
         <div class="cta-group" data-animate="scale" data-delay="300">
-          <a href="#contact" class="btn btn-primary">Agendar Consultoria Gratuita</a>
-          <a href="#services" class="btn btn-outline">Ver Nossos Serviços</a>
+          <a href="#contact" class="btn btn-primary">{{ $t('hero.cta.primary') }}</a>
+          <a href="#services" class="btn btn-outline">{{ $t('hero.cta.secondary') }}</a>
         </div>
       </div>
       <div class="hero-visual" data-animate="fade-left" data-delay="200">

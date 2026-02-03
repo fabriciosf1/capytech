@@ -2,46 +2,40 @@
   <section id="contact" class="section-padding">
     <div class="container container-narrow">
       <div class="card contact-card text-center" data-animate="fade-up">
-        <h2>Pronto para Transformar seu Negócio?</h2>
-        <p class="contact-sub">Agende uma consultoria gratuita de 30 minutos. Vamos entender seus desafios e mostrar como a tecnologia pode ajudar.</p>
+        <h2>{{ $t('contact.title') }}</h2>
+        <p class="contact-sub">{{ $t('contact.subtitle') }}</p>
 
         <div class="consultation-benefits">
-          <div class="benefit-item" data-animate="fade-up" data-delay="100">
+          <div 
+            v-for="(item, index) in $tm('contact.benefits')" 
+            :key="index"
+            class="benefit-item" 
+            data-animate="fade-up" 
+            :data-delay="100 + (index * 50)"
+          >
             <span class="benefit-icon">✅</span>
-            <span>Análise gratuita dos seus processos</span>
-          </div>
-          <div class="benefit-item" data-animate="fade-up" data-delay="150">
-            <span class="benefit-icon">✅</span>
-            <span>Sugestões de melhorias imediatas</span>
-          </div>
-          <div class="benefit-item" data-animate="fade-up" data-delay="200">
-            <span class="benefit-icon">✅</span>
-            <span>Orçamento sem compromisso</span>
-          </div>
-          <div class="benefit-item" data-animate="fade-up" data-delay="250">
-            <span class="benefit-icon">✅</span>
-            <span>Roadmap técnico personalizado</span>
+            <span>{{ $rt(item) }}</span>
           </div>
         </div>
 
         <div class="contact-info">
           <div class="contact-row">
-            <span class="contact-label">Email:</span>
+            <span class="contact-label">{{ $t('contact.labels.email') }}</span>
             <a href="mailto:fabriciosf@gmail.com" class="contact-link">fabriciosf@gmail.com</a>
           </div>
           <div class="contact-row">
-            <span class="contact-label">Discord:</span>
+            <span class="contact-label">{{ $t('contact.labels.discord') }}</span>
             <span class="contact-value">fabricio404</span>
           </div>
           <div class="contact-row">
-            <span class="contact-label">WhatsApp:</span>
+            <span class="contact-label">{{ $t('contact.labels.whatsapp') }}</span>
             <a href="https://wa.me/5534991935235" target="_blank" class="contact-link">(34) 9 9193-5235</a>
           </div>
         </div>
 
-        <a href="https://wa.me/5534991935235" target="_blank" class="btn btn-primary btn-lg pulse" data-animate="scale" data-delay="300">Agendar Consultoria Gratuita</a>
+        <a href="https://wa.me/5534991935235" target="_blank" class="btn btn-primary btn-lg pulse" data-animate="scale" data-delay="300">{{ $t('contact.cta') }}</a>
         
-        <p class="guarantee">⚡ Resposta em até 24 horas úteis</p>
+        <p class="guarantee">{{ $t('contact.guarantee') }}</p>
       </div>
     </div>
   </section>

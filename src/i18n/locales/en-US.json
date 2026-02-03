@@ -1,0 +1,198 @@
+{
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "technologies": "Technologies",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Transform Ideas into {highlight} that Drive Your Business",
+        "highlight": "Digital Solutions",
+        "subtitle": "Full-stack web development and custom mobile apps. Systems that automate processes, connect tools, and scale with your company.",
+        "valueProps": {
+            "agility": {
+                "title": "Agility",
+                "description": "From concept to deploy in weeks"
+            },
+            "tailored": {
+                "title": "Tailored",
+                "description": "Solutions designed for you"
+            },
+            "scalable": {
+                "title": "Scalable",
+                "description": "Technology that grows with you"
+            }
+        },
+        "cta": {
+            "primary": "Schedule Free Consultation",
+            "secondary": "View Our Services"
+        }
+    },
+    "whySystem": {
+        "title": "Why Every Business Needs a Digital System?",
+        "subtitle": "Manual processes cost time, money, and growth opportunities",
+        "problems": {
+            "scattered": {
+                "title": "Scattered Data",
+                "description": "Spreadsheets, emails, papers - lost and disorganized information making decision-making difficult"
+            },
+            "time": {
+                "title": "Wasted Time",
+                "description": "Repetitive manual tasks that could be automated, stealing precious hours from your day"
+            },
+            "errors": {
+                "title": "Human Errors",
+                "description": "Constant rework due to lack of automated processes, generating unnecessary costs"
+            },
+            "scaling": {
+                "title": "Scaling Difficulty",
+                "description": "Processes that don't keep up with growth, limiting your business potential"
+            }
+        },
+        "solution": {
+            "title": "The Solution",
+            "description": "A well-developed system centralizes information, automates processes, reduces errors, and allows you to focus on what really matters: growing your business.",
+            "stats": {
+                "manual": "of companies lose time with avoidable manual tasks",
+                "productivity": "productivity increase with custom systems",
+                "roi": "average ROI in 12 months"
+            }
+        }
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "Complete development solutions to transform your business",
+        "web": {
+            "title": "Full-Stack Web Development",
+            "description": "We create complete web platforms, from front-end to back-end. Management systems, interactive dashboards, SaaS platforms, custom e-commerce - everything designed for your reality.",
+            "deliverables": {
+                "title": "What we deliver:",
+                "items": [
+                    "Modern and intuitive interface (Vue.js, React)",
+                    "Robust and scalable backend (Laravel, Node.js)",
+                    "RESTful APIs for integrations",
+                    "Optimized database (PostgreSQL, MySQL)",
+                    "Cloud deploy (AWS, Google Cloud, DigitalOcean)"
+                ]
+            },
+            "ideal": "Companies needing centralized management, sales platforms, custom internal systems."
+        },
+        "mobile": {
+            "title": "Mobile App Development",
+            "description": "Take your business to your customers' pockets. We develop native and hybrid apps for iOS and Android, plus Progressive Web Apps (PWA) that work on any device.",
+            "deliverables": {
+                "title": "What we deliver:",
+                "items": [
+                    "High-performance native apps",
+                    "PWAs that work offline",
+                    "Real-time synchronization",
+                    "Push notifications",
+                    "Integration with existing APIs and systems"
+                ]
+            },
+            "ideal": "Companies wanting to be closer to customers, field teams, external sales."
+        },
+        "integrations": {
+            "title": "Custom Integrations & APIs",
+            "description": "Connect all your systems and tools. We develop robust APIs and integrations that make your software talk to each other, eliminating manual work and data duplication.",
+            "deliverables": {
+                "title": "What we deliver:",
+                "items": [
+                    "Documented RESTful APIs",
+                    "Integration with ERPs, CRMs, e-commerce",
+                    "Webhooks for real-time automation",
+                    "Bidirectional data synchronization",
+                    "Scalable microservices"
+                ]
+            },
+            "ideal": "Companies using multiple tools and needing to unify data."
+        },
+        "automation": {
+            "title": "Process Automation",
+            "description": "Eliminate repetitive tasks and gain hours in your day. We automate workflows with Python and n8n, creating intelligent scripts that work 24/7 for you.",
+            "deliverables": {
+                "title": "What we deliver:",
+                "items": [
+                    "Custom Python scripts",
+                    "n8n workflows",
+                    "Email and notification automation",
+                    "Batch data processing",
+                    "Task scheduling"
+                ]
+            },
+            "ideal": "Teams losing time with repetitive manual tasks."
+        },
+        "idealFor": "Ideal for:"
+    },
+    "technologies": {
+        "title": "Technologies",
+        "subtitle": "We work with the best tools in the market",
+        "items": {
+            "vue": {
+                "name": "Vue.js",
+                "description": "Progressive framework for modern and reactive interfaces"
+            },
+            "laravel": {
+                "name": "Laravel",
+                "description": "Robust PHP framework for scalable backends"
+            },
+            "react": {
+                "name": "React",
+                "description": "JavaScript library for dynamic UIs"
+            },
+            "node": {
+                "name": "Node.js",
+                "description": "JavaScript runtime for server-side applications"
+            },
+            "python": {
+                "name": "Python",
+                "description": "Versatile language for automation and APIs"
+            },
+            "n8n": {
+                "name": "n8n",
+                "description": "Workflow automation platform"
+            }
+        }
+    },
+    "about": {
+        "title": "About CapiTech",
+        "description": "We are specialists in {strong1}, creating digital solutions that transform businesses. Our philosophy is inspired by the capybara: {strong2}. We develop systems with clean code, solid architecture, and focus on performance, always thinking about the best user experience and real results for your business.",
+        "strong1": "web and mobile development",
+        "strong2": "robustness, calm intelligence, and adaptability"
+    },
+    "differentials": {
+        "title": "Differentials",
+        "items": [
+            "Clean and well-architected code",
+            "Agile methodology and fast delivery",
+            "Design focused on UX/UI",
+            "Security and best practices",
+            "Optimized performance",
+            "Clear and transparent communication",
+            "Competitive cost-benefit",
+            "Post-delivery support"
+        ]
+    },
+    "contact": {
+        "title": "Ready to Transform Your Business?",
+        "subtitle": "Schedule a free 30-minute consultation. Let's understand your challenges and show how technology can help.",
+        "benefits": [
+            "Free analysis of your processes",
+            "Immediate improvement suggestions",
+            "No-obligation quote",
+            "Custom technical roadmap"
+        ],
+        "labels": {
+            "email": "Email:",
+            "discord": "Discord:",
+            "whatsapp": "WhatsApp:"
+        },
+        "cta": "Schedule Free Consultation",
+        "guarantee": "⚡ Response within 24 business hours"
+    },
+    "footer": {
+        "copyright": "© 2026 CapiTech. All rights reserved.",
+        "note": "Developed with 💚 and ☕."
+    }
+}

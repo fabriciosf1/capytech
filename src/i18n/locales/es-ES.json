@@ -1,0 +1,198 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "services": "Servicios",
+        "technologies": "Tecnologías",
+        "about": "Sobre Nosotros",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "title": "Transforme Ideas en {highlight} que Impulsan su Negocio",
+        "highlight": "Soluciones Digitales",
+        "subtitle": "Desarrollo web full-stack y aplicaciones móviles a medida. Sistemas que automatizan procesos, conectan herramientas y escalan junto con su empresa.",
+        "valueProps": {
+            "agility": {
+                "title": "Agilidad",
+                "description": "Del concepto al deploy en semanas"
+            },
+            "tailored": {
+                "title": "A Medida",
+                "description": "Soluciones pensadas para usted"
+            },
+            "scalable": {
+                "title": "Escalable",
+                "description": "Tecnología que crece con usted"
+            }
+        },
+        "cta": {
+            "primary": "Agendar Consultoría Gratuita",
+            "secondary": "Ver Nuestros Servicios"
+        }
+    },
+    "whySystem": {
+        "title": "¿Por qué Todo Negocio Necesita un Sistema Digital?",
+        "subtitle": "Los procesos manuales cuestan tiempo, dinero y oportunidades de crecimiento",
+        "problems": {
+            "scattered": {
+                "title": "Datos Dispersos",
+                "description": "Hojas de cálculo, correos, papeles - información perdida y desorganizada que dificulta la toma de decisiones"
+            },
+            "time": {
+                "title": "Tiempo Perdido",
+                "description": "Tareas manuales repetitivas que podrían automatizarse, robando horas preciosas de su día"
+            },
+            "errors": {
+                "title": "Errores Humanos",
+                "description": "Retrabajo constante por falta de procesos automatizados, generando costos innecesarios"
+            },
+            "scaling": {
+                "title": "Dificultad para Escalar",
+                "description": "Procesos que no acompañan el crecimiento, limitando el potencial de su negocio"
+            }
+        },
+        "solution": {
+            "title": "La Solución",
+            "description": "Un sistema bien desarrollado centraliza información, automatiza procesos, reduce errores y le permite enfocarse en lo que realmente importa: hacer crecer su negocio.",
+            "stats": {
+                "manual": "de las empresas pierden tiempo con tareas manuales evitables",
+                "productivity": "aumento de productividad con sistemas personalizados",
+                "roi": "ROI promedio en 12 meses"
+            }
+        }
+    },
+    "services": {
+        "title": "Nuestros Servicios",
+        "subtitle": "Soluciones completas de desarrollo para transformar su negocio",
+        "web": {
+            "title": "Desarrollo Web Full-Stack",
+            "description": "Creamos plataformas web completas, desde el front-end hasta el back-end. Sistemas de gestión, dashboards interactivos, plataformas SaaS, e-commerce personalizados - todo pensado para su realidad.",
+            "deliverables": {
+                "title": "Lo que entregamos:",
+                "items": [
+                    "Interfaz moderna e intuitiva (Vue.js, React)",
+                    "Backend robusto y escalable (Laravel, Node.js)",
+                    "APIs RESTful para integraciones",
+                    "Base de datos optimizada (PostgreSQL, MySQL)",
+                    "Deploy en la nube (AWS, Google Cloud, DigitalOcean)"
+                ]
+            },
+            "ideal": "Empresas que necesitan gestión centralizada, plataformas de ventas, sistemas internos personalizados."
+        },
+        "mobile": {
+            "title": "Desarrollo de Apps Móviles",
+            "description": "Lleve su negocio al bolsillo de sus clientes. Desarrollamos apps nativas e híbridas para iOS y Android, además de Progressive Web Apps (PWA) que funcionan en cualquier dispositivo.",
+            "deliverables": {
+                "title": "Lo que entregamos:",
+                "items": [
+                    "Apps nativas de alto rendimiento",
+                    "PWAs que funcionan offline",
+                    "Sincronización en tiempo real",
+                    "Notificaciones push",
+                    "Integración con APIs y sistemas existentes"
+                ]
+            },
+            "ideal": "Empresas que quieren estar más cerca de los clientes, equipos de campo, ventas externas."
+        },
+        "integrations": {
+            "title": "Integraciones y APIs Personalizadas",
+            "description": "Conecte todos sus sistemas y herramientas. Desarrollamos APIs robustas e integraciones que hacen que sus softwares conversen entre sí, eliminando el trabajo manual y la duplicación de datos.",
+            "deliverables": {
+                "title": "Lo que entregamos:",
+                "items": [
+                    "APIs RESTful documentadas",
+                    "Integración con ERPs, CRMs, e-commerce",
+                    "Webhooks para automatización en tiempo real",
+                    "Sincronización bidireccional de datos",
+                    "Microservicios escalables"
+                ]
+            },
+            "ideal": "Empresas que usan múltiples herramientas y necesitan unificar datos."
+        },
+        "automation": {
+            "title": "Automatización de Procesos",
+            "description": "Elimine tareas repetitivas y gane horas en su día. Automatizamos flujos de trabajo con Python y n8n, creando scripts inteligentes que trabajan 24/7 para usted.",
+            "deliverables": {
+                "title": "Lo que entregamos:",
+                "items": [
+                    "Scripts Python personalizados",
+                    "Flujos de trabajo en n8n",
+                    "Automatización de correos y notificaciones",
+                    "Procesamiento de datos por lotes",
+                    "Programación de tareas"
+                ]
+            },
+            "ideal": "Equipos que pierden tiempo con tareas manuales repetitivas."
+        },
+        "idealFor": "Ideal para:"
+    },
+    "technologies": {
+        "title": "Tecnologías",
+        "subtitle": "Trabajamos con las mejores herramientas del mercado",
+        "items": {
+            "vue": {
+                "name": "Vue.js",
+                "description": "Framework progresivo para interfaces modernas y reactivas"
+            },
+            "laravel": {
+                "name": "Laravel",
+                "description": "Framework PHP robusto para backends escalables"
+            },
+            "react": {
+                "name": "React",
+                "description": "Biblioteca JavaScript para UIs dinámicas"
+            },
+            "node": {
+                "name": "Node.js",
+                "description": "Runtime JavaScript para aplicaciones del lado del servidor"
+            },
+            "python": {
+                "name": "Python",
+                "description": "Lenguaje versátil para automatización y APIs"
+            },
+            "n8n": {
+                "name": "n8n",
+                "description": "Plataforma de automatización de flujos de trabajo"
+            }
+        }
+    },
+    "about": {
+        "title": "Sobre CapiTech",
+        "description": "Somos especialistas en {strong1}, creando soluciones digitales que transforman negocios. Nuestra filosofía está inspirada en el capibara: {strong2}. Desarrollamos sistemas con código limpio, arquitectura sólida y enfoque en el rendimiento, siempre pensando en la mejor experiencia de usuario y en resultados reales para su negocio.",
+        "strong1": "desarrollo web y móvil",
+        "strong2": "robustez, inteligencia tranquila y adaptabilidad"
+    },
+    "differentials": {
+        "title": "Diferenciales",
+        "items": [
+            "Código limpio y bien arquitectado",
+            "Metodología ágil y entregas rápidas",
+            "Diseño enfocado en UX/UI",
+            "Seguridad y buenas prácticas",
+            "Rendimiento optimizado",
+            "Comunicación clara y transparente",
+            "Relación costo-beneficio competitiva",
+            " Soporte post-entrega"
+        ]
+    },
+    "contact": {
+        "title": "¿Listo para Transformar su Negocio?",
+        "subtitle": "Agende una consultoría gratuita de 30 minutos. Vamos a entender sus desafíos y mostrar cómo la tecnología puede ayudar.",
+        "benefits": [
+            "Análisis gratuito de sus procesos",
+            "Sugerencias de mejoras inmediatas",
+            "Presupuesto sin compromiso",
+            "Hoja de ruta técnica personalizada"
+        ],
+        "labels": {
+            "email": "Email:",
+            "discord": "Discord:",
+            "whatsapp": "WhatsApp:"
+        },
+        "cta": "Agendar Consultoría Gratuita",
+        "guarantee": "⚡ Respuesta en hasta 24 horas hábiles"
+    },
+    "footer": {
+        "copyright": "© 2026 CapiTech. Todos los derechos reservados.",
+        "note": "Desarrollado con 💚 y ☕."
+    }
+}
