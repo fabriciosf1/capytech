@@ -2,224 +2,24 @@
 <html lang="pt-BR" class="dark">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="/favicon.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CapiTech - Automação e Soluções Digitais</title>
-  <meta name="description"
-    content="Desenvolvimento web, automação e soluções sob medida com Python e n8n. Tecnologia inteligente para escalar seu negócio.">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CapiTech - Desenvolvimento Web e Apps</title>
+    <meta name="description"
+        content="Desenvolvimento web full-stack, aplicativos mobile e soluções digitais modernas. Sistemas escaláveis com Laravel, Vue.js e tecnologias de ponta.">
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Navigation -->
-  <header class="navbar glass">
-    <div class="container navbar-content">
-      <a href="#hero" class="logo">
-        <img src="/logo.png" alt="CapiTech Logo" height="40">
-      </a>
-
-      <button class="mobile-menu-btn" aria-label="Menu">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="3" y1="12" x2="21" y2="12"></line>
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-          <line x1="3" y1="18" x2="21" y2="18"></line>
-        </svg>
-      </button>
-
-      <nav class="nav-menu">
-        <ul class="nav-links">
-          <li><a href="#hero" class="nav-link active">Início</a></li>
-          <li><a href="#services" class="nav-link">Serviços</a></li>
-          <li><a href="#tech" class="nav-link">Tecnologias</a></li>
-          <li><a href="#about" class="nav-link">Sobre</a></li>
-          <li><a href="#contact" class="nav-link btn-contact">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <!-- Hero Section -->
-    <section id="hero" class="hero-section">
-      <div class="container grid-hero">
-        <div class="hero-text fade-in-up">
-          <h1 class="headline">CapiTech<br><span class="highlight">Tecnologia inteligente</span> para automatizar,
-            integrar e escalar</h1>
-
-          <div class="cta-group">
-            <a href="#contact" class="btn btn-primary">Entrar em contato</a>
-            <a href="#services" class="btn btn-outline">Ver serviços</a>
-          </div>
-        </div>
-        <div class="hero-visual fade-in-up delay-100">
-          <!-- Placeholder concept for the Capybara Tech visual -->
-          <div class="capy-visual-placeholder">
-            <img src="/logo.png" alt="CapiTech Mascot" class="floating-mascot" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="section-padding">
-      <div class="container">
-        <div class="section-header text-center">
-          <h2>O que fazemos</h2>
-        </div>
-        <div class="grid-cards">
-          <!-- Card 1 -->
-          <div class="card service-card fade-in-up">
-            <div class="icon-box">💻</div>
-            <h3>Desenvolvimento Web</h3>
-            <p>Sistemas web modernos, escaláveis e bem estruturados, focados em performance e usabilidade.</p>
-          </div>
-          <!-- Card 2 -->
-          <div class="card service-card fade-in-up delay-100">
-            <div class="icon-box">⚙️</div>
-            <h3>Automação de Processos</h3>
-            <p>Automação com Python e n8n para eliminar tarefas repetitivas e aumentar a eficiência.</p>
-          </div>
-          <!-- Card 3 -->
-          <div class="card service-card fade-in-up delay-200">
-            <div class="icon-box">🔗</div>
-            <h3>Integrações</h3>
-            <p>Conexão entre APIs, ERPs, CRMs, Webhooks e fluxos automatizados para unificar seus dados.</p>
-          </div>
-          <!-- Card 4 -->
-          <div class="card service-card fade-in-up delay-300">
-            <div class="icon-box">📊</div>
-            <h3>Soluções sob medida</h3>
-            <p>Sistemas pensados exatamente para a necessidade do seu negócio, sem excessos nem gambiarras.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Technologies Section -->
-    <section id="tech" class="section-padding bg-surface">
-      <div class="container">
-        <div class="section-header text-center">
-          <h2>Stack Tecnológico</h2>
-        </div>
-        <div class="tech-grid">
-          <div class="tech-item"><span class="tech-icon">🐍</span> <span class="tech-name">Python</span></div>
-          <div class="tech-item"><span class="tech-icon">⚡</span> <span class="tech-name">n8n</span></div>
-          <div class="tech-item"><span class="tech-icon">🏗️</span> <span class="tech-name">Laravel</span></div>
-          <div class="tech-item"><span class="tech-icon">💚</span> <span class="tech-name">Vue.js</span></div>
-          <div class="tech-item"><span class="tech-icon">💠</span> <span class="tech-name">PrimeVue</span></div>
-          <div class="tech-item"><span class="tech-icon">🐘</span> <span class="tech-name">PostgreSQL</span></div>
-          <div class="tech-item"><span class="tech-icon">🐳</span> <span class="tech-name">Docker</span></div>
-          <div class="tech-item"><span class="tech-icon">🔌</span> <span class="tech-name">APIs REST</span></div>
-          <div class="tech-item"><span class="tech-icon">🎨</span> <span class="tech-name">Bootstrap</span></div>
-          <div class="tech-item"><span class="tech-icon">🐬</span> <span class="tech-name">MySQL</span></div>
-          <div class="tech-item"><span class="tech-icon">🐘</span> <span class="tech-name">PHP</span></div>
-          <div class="tech-item"><span class="tech-icon">💛</span> <span class="tech-name">JavaScript</span></div>
-          <div class="tech-item"><span class="tech-icon">🐙</span> <span class="tech-name">Git</span></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section-padding">
-      <div class="container grid-about">
-        <div class="about-text fade-in-up">
-          <h2>Sobre a CapiTech</h2>
-          <p>A <strong>CapiTech</strong> nasce da união entre tecnologia, automação e organização.</p>
-          <p>Nossa filosofia é inspirada na natureza da capivara: <strong>inteligência calma, robustez e
-              adaptabilidade</strong>. Criamos soluções simples de usar, mas robustas por dentro, focadas em
-            produtividade, clareza e resultado real.</p>
-        </div>
-        <div class="about-visual fade-in-up delay-100">
-          <div class="code-block-visual">
-            <pre><code>{
-  "mission": "Automate & Scale",
-  "values": [
-    "Clean Code",
-    "Efficiency",
-    "Reliability"
-  ],
-  "status": "Ready to Deploy"
-}</code></pre>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Differentials Section -->
-    <section id="differentials" class="section-padding">
-      <div class="container">
-        <div class="section-header text-center">
-          <h2>Diferenciais</h2>
-        </div>
-        <div class="grid-differentials">
-          <div class="diff-item">
-            <span class="check-icon">✓</span>
-            <span>Código limpo e organizado</span>
-          </div>
-          <div class="diff-item">
-            <span class="check-icon">✓</span>
-            <span>Foco em automação real</span>
-          </div>
-          <div class="diff-item">
-            <span class="check-icon">✓</span>
-            <span>Comunicação clara</span>
-          </div>
-          <div class="diff-item">
-            <span class="check-icon">✓</span>
-            <span>Soluções escaláveis</span>
-          </div>
-          <div class="diff-item">
-            <span class="check-icon">✓</span>
-            <span>Tecnologia sem complicação</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section-padding">
-      <div class="container container-narrow">
-        <div class="card contact-card text-center fade-in-up">
-          <h2>Vamos conversar sobre seu projeto?</h2>
-          <p class="contact-sub">Entre em contato para discutirmos como a tecnologia pode impulsionar seu negócio.</p>
-
-          <div class="contact-info">
-            <div class="contact-row">
-              <span class="contact-label">Email:</span>
-              <a href="mailto:fabriciosf@gmail.com" class="contact-link">fabriciosf@gmail.com</a>
-            </div>
-            <div class="contact-row">
-              <span class="contact-label">Discord:</span>
-              <span class="contact-value">fabricio404</span>
-            </div>
-            <div class="contact-row">
-              <span class="contact-label">WhatsApp:</span>
-              <a href="https://wa.me/5534991935235" target="_blank" class="contact-link">(34) 9 9193-5235</a>
-            </div>
-          </div>
-
-          <a href="https://wa.me/5534991935235" target="_blank" class="btn btn-primary btn-lg">Falar agora</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container text-center">
-      <p>&copy; 2026 CapiTech. Todos os direitos reservados.</p>
-      <p class="footer-note">Desenvolvido com 💚 e ☕.</p>
-    </div>
-  </footer>
-
-  <script type="module" src="/main.js"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>

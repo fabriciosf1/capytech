@@ -16,8 +16,12 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.4",
     "gh-pages": "^6.3.0",
     "google-fonts-complete": "^2.2.3",
     "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "vue": "^3.5.27"
   }
 }
