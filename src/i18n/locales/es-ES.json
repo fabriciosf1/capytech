@@ -4,7 +4,34 @@
         "services": "Servicios",
         "technologies": "Tecnologías",
         "about": "Sobre Nosotros",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "portfolio": "Portafolio"
+    },
+    "portfolio": {
+        "title": "Casos de Éxito",
+        "subtitle": "Descubra proyectos reales que transformaron la operación de nuestros clientes",
+        "projects": {
+            "doctor": {
+                "title": "Doctor Service",
+                "category": "HealthTech y Telemedicina",
+                "description": "Ecosistema de salud completo con Telemedicina, gestión de horarios médicos, reclutamiento y módulo financiero integrado. Revolucionó la gestión de clínicas."
+            },
+            "clarivi": {
+                "title": "Clarivi Agronegocios",
+                "category": "AgriTech y Ventas Offline",
+                "description": "Solución B2B/B2C para el campo. Destacado App de Pedidos Offline que agilizó la venta de insumos en la finca, además de gestión de maquinaria agrícola."
+            },
+            "smartweb": {
+                "title": "SmartWeb & Fator",
+                "category": "Marketing y Web Apps",
+                "description": "Hub de innovación digital. Desarrollo de sistemas de email marketing de alto rendimiento y decenas de sitios institucionales para Fator Publicidade y SmartWeb."
+            },
+            "uniao": {
+                "title": "União Atacadista",
+                "category": "ERP y Logística",
+                "description": "Sistema robusto de gestión mayorista. Optimización de procesos comerciales y logísticos para manejar alto volumen de ventas y distribución."
+            }
+        }
     },
     "hero": {
         "title": "Transforme Ideas en {highlight} que Impulsan su Negocio",

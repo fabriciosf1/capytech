@@ -3,6 +3,7 @@
     <Navbar />
     <main>
       <Hero />
+      <Portfolio />
       <WhySystem />
       <Services />
       <Technologies />
@@ -17,6 +18,7 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
 import Hero from './components/Hero.vue'
+import Portfolio from './components/Portfolio.vue'
 import WhySystem from './components/WhySystem.vue'
 import Services from './components/Services.vue'
 import Technologies from './components/Technologies.vue'

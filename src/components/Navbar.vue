@@ -17,6 +17,7 @@
       <nav class="nav-menu" :class="{ open: menuOpen }">
         <ul class="nav-links">
           <li><a href="#hero" class="nav-link" :class="{ active: activeSection === 'hero' }" @click="closeMenu">{{ $t('nav.home') }}</a></li>
+          <li><a href="#portfolio" class="nav-link" :class="{ active: activeSection === 'portfolio' }" @click="closeMenu">{{ $t('nav.portfolio') }}</a></li>
           <li><a href="#services" class="nav-link" :class="{ active: activeSection === 'services' }" @click="closeMenu">{{ $t('nav.services') }}</a></li>
           <li><a href="#tech" class="nav-link" :class="{ active: activeSection === 'tech' }" @click="closeMenu">{{ $t('nav.technologies') }}</a></li>
           <li><a href="#about" class="nav-link" :class="{ active: activeSection === 'about' }" @click="closeMenu">{{ $t('nav.about') }}</a></li>
