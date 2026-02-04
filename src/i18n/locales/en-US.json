@@ -202,21 +202,38 @@
         ]
     },
     "contact": {
-        "title": "Ready to Transform Your Business?",
-        "subtitle": "Schedule a free 30-minute consultation. Let's understand your challenges and show how technology can help.",
-        "benefits": [
-            "Free analysis of your processes",
-            "Immediate improvement suggestions",
-            "No-obligation quote",
-            "Custom technical roadmap"
-        ],
-        "labels": {
-            "email": "Email:",
-            "discord": "Discord:",
-            "whatsapp": "WhatsApp:"
+        "title": "Get in Touch",
+        "subtitle": "Fill out the form below for quotes, questions, or suggestions.",
+        "form": {
+            "name": "Full Name",
+            "phone": "Phone / WhatsApp",
+            "subject": "Subject",
+            "message": "Message",
+            "submit": "Send Email",
+            "placeholders": {
+                "name": "Your name",
+                "phone": "+1 555 123 4567",
+                "message": "Describe what you need..."
+            },
+            "subjects": {
+                "budget": "Budget Quote",
+                "complaint": "Complaint",
+                "suggestion": "Suggestion",
+                "question": "Questions",
+                "compliment": "Compliments",
+                "other": "Others"
+            }
         },
-        "cta": "Schedule Free Consultation",
-        "guarantee": "⚡ Response within 24 business hours"
+        "links": {
+            "discord": "Chat on Discord"
+        },
+        "feedback": {
+            "sending": "Sending message...",
+            "success_title": "Success!",
+            "success": "✅ Message sent successfully! We'll be in touch shortly.",
+            "error_title": "Oops!",
+            "error": "❌ Error sending. Please try again or reach out on Discord."
+        }
     },
     "footer": {
         "copyright": "© 2026 CapiTech. All rights reserved.",

@@ -202,21 +202,38 @@
         ]
     },
     "contact": {
-        "title": "¿Listo para Transformar su Negocio?",
-        "subtitle": "Agende una consultoría gratuita de 30 minutos. Vamos a entender sus desafíos y mostrar cómo la tecnología puede ayudar.",
-        "benefits": [
-            "Análisis gratuito de sus procesos",
-            "Sugerencias de mejoras inmediatas",
-            "Presupuesto sin compromiso",
-            "Hoja de ruta técnica personalizada"
-        ],
-        "labels": {
-            "email": "Email:",
-            "discord": "Discord:",
-            "whatsapp": "WhatsApp:"
+        "title": "Ponte en Contacto",
+        "subtitle": "Complete el formulario a continuación para presupuestos, dudas o sugerencias.",
+        "form": {
+            "name": "Nombre Completo",
+            "phone": "Teléfono / WhatsApp",
+            "subject": "Asunto",
+            "message": "Mensaje",
+            "submit": "Enviar Email",
+            "placeholders": {
+                "name": "Su nombre",
+                "phone": "+34 600 000 000",
+                "message": "Describa lo que necesita..."
+            },
+            "subjects": {
+                "budget": "Presupuesto",
+                "complaint": "Reclamación",
+                "suggestion": "Sugerencia",
+                "question": "Dudas",
+                "compliment": "Elogios",
+                "other": "Otros"
+            }
         },
-        "cta": "Agendar Consultoría Gratuita",
-        "guarantee": "⚡ Respuesta en hasta 24 horas hábiles"
+        "links": {
+            "discord": "Hable en Discord"
+        },
+        "feedback": {
+            "sending": "Enviando mensaje...",
+            "success_title": "¡Éxito!",
+            "success": "✅ ¡Mensaje enviado con éxito! Nos pondremos en contacto pronto.",
+            "error_title": "¡Vaya!",
+            "error": "❌ Error al enviar. Por favor intente nuevamente o hable en Discord."
+        }
     },
     "footer": {
         "copyright": "© 2026 CapiTech. Todos los derechos reservados.",

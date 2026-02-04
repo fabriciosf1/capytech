@@ -202,21 +202,38 @@
         ]
     },
     "contact": {
-        "title": "Pronto para Transformar seu Negócio?",
-        "subtitle": "Agende uma consultoria gratuita de 30 minutos. Vamos entender seus desafios e mostrar como a tecnologia pode ajudar.",
-        "benefits": [
-            "Análise gratuita dos seus processos",
-            "Sugestões de melhorias imediatas",
-            "Orçamento sem compromisso",
-            "Roadmap técnico personalizado"
-        ],
-        "labels": {
-            "email": "Email:",
-            "discord": "Discord:",
-            "whatsapp": "WhatsApp:"
+        "title": "Entre em Contato",
+        "subtitle": "Preencha o formulário abaixo para orçamentos, dúvidas ou sugestões.",
+        "form": {
+            "name": "Nome Completo",
+            "phone": "Telefone / WhatsApp",
+            "subject": "Assunto",
+            "message": "Mensagem",
+            "submit": "Enviar Email",
+            "placeholders": {
+                "name": "Seu nome",
+                "phone": "(DD) 99999-9999",
+                "message": "Descreva o que você precisa..."
+            },
+            "subjects": {
+                "budget": "Orçamento",
+                "complaint": "Reclamação",
+                "suggestion": "Sugestão",
+                "question": "Dúvidas",
+                "compliment": "Elogios",
+                "other": "Outros"
+            }
         },
-        "cta": "Agendar Consultoria Gratuita",
-        "guarantee": "⚡ Resposta em até 24 horas úteis"
+        "links": {
+            "discord": "Me chame no Discord"
+        },
+        "feedback": {
+            "sending": "Enviando mensagem...",
+            "success_title": "Sucesso!",
+            "success": "✅ Mensagem enviada com sucesso! Em breve retornaremos.",
+            "error_title": "Ops!",
+            "error": "❌ Erro ao enviar. Por favor, tente novamente ou chame no Discord."
+        }
     },
     "footer": {
         "copyright": "© 2026 CapiTech. Todos os direitos reservados.",
