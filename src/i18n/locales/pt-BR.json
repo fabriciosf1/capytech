@@ -206,12 +206,14 @@
         "subtitle": "Preencha o formulário abaixo para orçamentos, dúvidas ou sugestões.",
         "form": {
             "name": "Nome Completo",
+            "email": "E-mail",
             "phone": "Telefone / WhatsApp",
             "subject": "Assunto",
             "message": "Mensagem",
             "submit": "Enviar Email",
             "placeholders": {
                 "name": "Seu nome",
+                "email": "seu@email.com",
                 "phone": "(DD) 99999-9999",
                 "message": "Descreva o que você precisa..."
             },

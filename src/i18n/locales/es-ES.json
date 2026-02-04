@@ -206,12 +206,14 @@
         "subtitle": "Complete el formulario a continuación para presupuestos, dudas o sugerencias.",
         "form": {
             "name": "Nombre Completo",
+            "email": "Correo Electrónico",
             "phone": "Teléfono / WhatsApp",
             "subject": "Asunto",
             "message": "Mensaje",
             "submit": "Enviar Email",
             "placeholders": {
                 "name": "Su nombre",
+                "email": "su@correo.com",
                 "phone": "+34 600 000 000",
                 "message": "Describa lo que necesita..."
             },

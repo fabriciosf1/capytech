@@ -206,12 +206,14 @@
         "subtitle": "Fill out the form below for quotes, questions, or suggestions.",
         "form": {
             "name": "Full Name",
+            "email": "E-mail",
             "phone": "Phone / WhatsApp",
             "subject": "Subject",
             "message": "Message",
             "submit": "Send Email",
             "placeholders": {
                 "name": "Your name",
+                "email": "your@email.com",
                 "phone": "+1 555 123 4567",
                 "message": "Describe what you need..."
             },

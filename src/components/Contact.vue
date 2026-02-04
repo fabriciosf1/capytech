@@ -14,6 +14,11 @@
           </div>
 
           <div class="form-group">
+            <label>{{ $t('contact.form.email') }}</label>
+            <input type="email" v-model="form.email" :placeholder="$t('contact.form.placeholders.email')" required />
+          </div>
+
+          <div class="form-group">
             <label>{{ $t('contact.form.phone') }}</label>
             <input 
               type="tel" 
@@ -100,6 +105,7 @@ const modal = reactive({
 
 const form = reactive({
   name: '',
+  email: '',
   phone: '',
   subject: '',
   message: ''
@@ -126,10 +132,11 @@ const submitForm = async () => {
 
   const payload = {
     from_name: form.name,
+    email: form.email,
     phone: form.phone,
     subject: form.subject,
     message: form.message,
-    reply_to: 'fabriciosf@gmail.com',
+    reply_to: form.email, // Use client email for reply_to
     source: 'CapyTech Website',
     locale: locale.value,
     timestamp: new Date().toISOString()
@@ -162,6 +169,7 @@ const submitForm = async () => {
 
     // Reset Form
     form.name = ''
+    form.email = ''
     form.phone = ''
     form.subject = ''
     form.message = ''
