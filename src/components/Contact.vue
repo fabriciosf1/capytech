@@ -84,10 +84,10 @@ const loading = ref(false)
 
 // --- CONFIGURAÇÃO DE ENVIO ---
 // Mude para true quando quiser usar o n8n
-const USE_WEBHOOK = false 
+const USE_WEBHOOK = true
 
 // Configuração Webhook (n8n/Make)
-const WEBHOOK_URL = 'YOUR_WEBHOOK_URL_HERE'
+const WEBHOOK_URL = 'http://localhost:5678/webhook-test/23bc4c9c-d8cc-48f2-8688-0b0179017be1'
 
 // Configuração EmailJS
 const EMAILJS_SERVICE_ID = 'service_0jsx2up'
