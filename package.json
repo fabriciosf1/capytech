@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "tunnel": "npx localtunnel --port 5678",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

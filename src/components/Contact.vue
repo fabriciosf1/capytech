@@ -87,7 +87,8 @@ const loading = ref(false)
 const USE_WEBHOOK = true
 
 // Configuração Webhook (n8n/Make)
-const WEBHOOK_URL = 'http://localhost:5678/webhook-test/23bc4c9c-d8cc-48f2-8688-0b0179017be1'
+const WEBHOOK_URL = 'https://modern-chairs-sit.loca.lt/webhook-test/23bc4c9c-d8cc-48f2-8688-0b0179017be1'
+
 
 // Configuração EmailJS
 const EMAILJS_SERVICE_ID = 'service_0jsx2up'
