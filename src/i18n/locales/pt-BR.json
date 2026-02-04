@@ -213,7 +213,7 @@
             "submit": "Enviar Email",
             "placeholders": {
                 "name": "Seu nome",
-                "email": "seu@email.com",
+                "email": "seu{'@'}email.com",
                 "phone": "(DD) 99999-9999",
                 "message": "Descreva o que você precisa..."
             },

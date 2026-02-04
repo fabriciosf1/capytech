@@ -213,7 +213,7 @@
             "submit": "Enviar Email",
             "placeholders": {
                 "name": "Su nombre",
-                "email": "su@correo.com",
+                "email": "su{'@'}correo.com",
                 "phone": "+34 600 000 000",
                 "message": "Describa lo que necesita..."
             },

@@ -213,7 +213,7 @@
             "submit": "Send Email",
             "placeholders": {
                 "name": "Your name",
-                "email": "your@email.com",
+                "email": "your{'@'}email.com",
                 "phone": "+1 555 123 4567",
                 "message": "Describe what you need..."
             },
