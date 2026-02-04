@@ -150,7 +150,9 @@ const submitForm = async () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Accept': 'application/json'
+          'Accept': 'application/json',
+          'Bypass-Tunnel-Reminder': 'true', // Bypasses localtunnel warning
+          'ngrok-skip-browser-warning': 'true' // Bypasses ngrok warning
         },
         body: JSON.stringify(payload)
       })
